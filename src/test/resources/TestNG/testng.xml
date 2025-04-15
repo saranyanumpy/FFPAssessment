@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GroupIDName" thread-count="3">
+    <test name="TestChrome">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="com.testRunner.TestRunner"/>
+        </classes>
+    </test>  
+    <test name="Testfirefox">
+        <parameter name="browser" value="Firefox"></parameter>
+        <classes>
+            <class name="com.testRunner.TestRunner"/>
+        </classes>
+    </test>  
+    <test name="Testedge">
+        <parameter name="browser" value="Edge"></parameter>
+        <classes>
+            <class name="com.testRunner.TestRunner"/>
+        </classes>
+    </test>  
+</suite>
