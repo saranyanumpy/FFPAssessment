@@ -30,7 +30,7 @@ public class HomePage {
 	private By emailLoginInput=By.xpath("//div//input[@id='txtEmail']");
 	private By passwordLoginInput=By.xpath("//div//input[@id='loginPasswordInput']");
 	private By Login=By.xpath("//a//button[@id='Loginbtn']");
-	private By titleAfterLoggingIn=By.xpath("//div[@class='grey']//p[contains(text(), 'Apply Cash Back savings as you shop with just one click.')]");
+	private By titleAfterLoggingIn=By.xpath("//div//span[contains(text(), 'Enter your phone number')]");
 	private By titleAfterJoinnow=By.xpath("//div[@class='gecko-single-container no-overflow acct-overview-box']//span[normalize-space()='Account Overview']");
 	// Constructor
 	public HomePage(WebDriver driver) {
@@ -94,7 +94,7 @@ public class HomePage {
 	    return driver.findElement(loginNavigationTitle).getText();
 	}
 	public void signUpBtn() {
-		driver.findElement(emailInput).sendKeys("qaautomation@mailinator.com");
+		driver.findElement(emailInput).sendKeys("rvmithra@gmail.com");
 		driver.findElement(passwordInput).sendKeys("Testing@123");
 		driver.findElement(joinNowBtn).click();
 	}

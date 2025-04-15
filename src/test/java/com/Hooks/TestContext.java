@@ -35,7 +35,7 @@ public class TestContext {
 
 // driver close
 	public void closeDriver() {
-		//driverFactory.closeDriver();
+		driverFactory.closeDriver();
 	}
 
 	public String getApplicationURL() {

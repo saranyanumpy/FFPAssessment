@@ -26,5 +26,5 @@ Background:
   Scenario: Click on Login and verify navigation
 
   	When I click the login button and it should redirect with page title should be "Hello again!"
-		Then I click on the Login button with positive Email and Password as input and validating the page title as "Apply Cash Back savings as you shop with just one click."
+		Then I click on the Login button with positive Email and Password as input and validating the page title as "Enter your phone number"
   

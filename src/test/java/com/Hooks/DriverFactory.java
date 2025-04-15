@@ -44,9 +44,9 @@ public class DriverFactory {
         return driver;
     }
 
-//    public void closeDriver() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-    //}
+    public void closeDriver() {
+        if (driver != null) {
+            driver.quit();
+        }
+   }
 }
