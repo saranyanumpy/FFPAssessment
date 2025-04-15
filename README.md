@@ -48,3 +48,5 @@ cd FFP_Assessment_Saranya
 Run Tests
 mvn clean test
 
+Handled Captcha.
+
